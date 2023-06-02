@@ -116,7 +116,7 @@ transition: all 1s ease;
 const DarkDiv = styled.div`
 position: absolute;
 top: 0;
-background-color: #000;
+background-color: #fac031;
 bottom: 0;
 right: 50%;
 width: ${props => props.click ? '50%' : '0%'};
@@ -145,7 +145,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+            <Contact target="_blank" href="mailto:wisuwatpond01@gmail.com">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -162,7 +162,7 @@ const Main = () => {
                     Say hi..
                 </motion.h2>
             </Contact>
-            <BLOG to="/blog">
+            {/* <BLOG to="/blog">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -177,7 +177,7 @@ const Main = () => {
                 >
                     Blog
                 </motion.h2>
-            </BLOG>
+            </BLOG> */}
             <WORK to="/work" click={+click}>
                 <motion.h2
                 initial={{
